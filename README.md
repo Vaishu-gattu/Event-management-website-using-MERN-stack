@@ -39,8 +39,8 @@ root/
 
 ## Screenshots
 
-### Booking Form (Frontend)
-![Booking Form](./screenshots/booking-form.png)
+### Landing Page
+(./images/1.png)
 
 ### MongoDB Entry (Backend)
 ![MongoDB Entry](./screenshots/mongodb-entry.png)
