@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Heart, Building, Baby, Gift, Palette, CheckCircle } from "lucide-react";
 import corporateImage from "@/assets/corporate-event.jpg";
+import weddingImage from "@/assets/wedding.jpg";
 import babyShowerImage from "@/assets/baby-shower.jpg";
 import birthdayImage from "@/assets/birthday-party.jpg";
 import customDecorImage from "@/assets/custom-decor.jpg";
@@ -14,7 +15,7 @@ const services = [
     icon: Heart,
     title: "Wedding Planning & Design",
     description: "From intimate ceremonies to grand celebrations, we create wedding experiences that reflect your unique love story.",
-    image: corporateImage, // Using corporate image as placeholder for wedding
+    image: weddingImage, // Using corporate image as placeholder for wedding
     features: [
       "Full-service wedding planning",
       "Custom floral design",
