@@ -1,0 +1,47 @@
+# === Node Modules ===
+node_modules/
+
+# === Build Output ===
+dist/
+build/
+
+# === Environment Variables ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === IDE Files ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# === MongoDB Data (if local dump files exist) ===
+dump/
+*.gz
+*.archive
+
+# === React Specific ===
+*.log
+coverage/
+
+# === Others ===
+*.tgz
+*.tar
+.cache/
+.parcel-cache/
+.eslintcache
