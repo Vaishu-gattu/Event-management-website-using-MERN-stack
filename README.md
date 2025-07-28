@@ -42,10 +42,18 @@ root/
 ### Landing Page
 ![1](./images/1.png)
 
-### MongoDB Entry (Backend)
-![MongoDB Entry](./screenshots/mongodb-entry.png)
+### Services Page
+![2](./images/2.png)
 
-> Ensure `screenshots` folder with images exists in your repo.
+### Testimonials 
+![3](./images/3.png)
+
+### Contact Form
+![4](./images/4.png)
+
+
+
+
 
 ## Getting Started
 
