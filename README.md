@@ -40,7 +40,7 @@ root/
 ## Screenshots
 
 ### Landing Page
-!(./images/1.png)
+![1](./images/1.png)
 
 ### MongoDB Entry (Backend)
 ![MongoDB Entry](./screenshots/mongodb-entry.png)
