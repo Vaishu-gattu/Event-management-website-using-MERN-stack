@@ -40,7 +40,7 @@ root/
 ## Screenshots
 
 ### Landing Page
-(./images/1.png)
+!(./images/1.png)
 
 ### MongoDB Entry (Backend)
 ![MongoDB Entry](./screenshots/mongodb-entry.png)
@@ -61,4 +61,4 @@ root/
 
 ## Author
 
-This project was developed by Arun K Gattu.
+This project was developed by Vaishu Gattu.
