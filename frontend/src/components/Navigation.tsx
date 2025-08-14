@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png"; // Import your logo
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,15 +23,14 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="group">
-            <div className="flex flex-col">
-              <h1 className="text-2xl font-playfair font-bold text-accent group-hover:text-secondary transition-colors">
-                Pearl Haus
-              </h1>
-              <p className="text-xs text-muted-foreground font-inter -mt-1">
-                Where stories and style intertwine
-              </p>
-            </div>
+          <Link to="/" className="group flex items-center">
+            <img
+              src={logo}
+              alt="Pearl Haus Logo"
+              className="h-10 w-auto"
+            />
+            {/* Optional: tagline */}
+          
           </Link>
 
           {/* Desktop Navigation */}
