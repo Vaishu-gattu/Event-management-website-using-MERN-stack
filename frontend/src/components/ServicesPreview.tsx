@@ -54,15 +54,15 @@ const ServicesPreview = () => {
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
-              <Card key={index} className="group hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
-                <CardContent className="p-6">
+              <Card key={index} className="group hover:shadow-elegant transition-all duration-300 hover:-translate-y-1 flex flex-col">
+                <CardContent className="p-6 flex-grow flex flex-col">
                   <div className={`w-16 h-16 rounded-lg ${service.image} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
                     <Icon className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="text-xl font-playfair font-semibold text-accent mb-3">
                     {service.title}
                   </h3>
-                  <p className="text-muted-foreground font-inter leading-relaxed">
+                  <p className="text-muted-foreground font-inter leading-relaxed flex-grow">
                     {service.description}
                   </p>
                 </CardContent>

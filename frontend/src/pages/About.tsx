@@ -34,7 +34,7 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground font-inter leading-relaxed">
                 <p>
-                  Pearl Haus was founded by Isabella Martinez, a visionary event designer 
+                  Pearl Haus was founded by Vaishu Gattu, a visionary event designer 
                   with over a decade of experience in luxury hospitality and event management. 
                   Her journey began in the world of high-end hotels, where she discovered 
                   her passion for creating unforgettable experiences.
@@ -64,7 +64,7 @@ const About = () => {
                     "Every event is a canvas for creating beautiful memories"
                   </p>
                   <p className="text-primary-foreground/80 font-inter mt-2">
-                    - Isabella Martinez
+                  - Vaishu Gattu
                   </p>
                 </div>
               </div>

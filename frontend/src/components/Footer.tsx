@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Instagram, Facebook, Twitter, Mail, Phone, MapPin } from "lucide-react";
+import PearlHausLogoWhite from "@/assets/logo-white.png";
 
 const Footer = () => {
   return (
@@ -9,12 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="group">
-              <h3 className="text-2xl font-playfair font-bold text-accent mb-2">
-                Pearl Haus
-              </h3>
-              <p className="text-sm font-inter mb-4 opacity-80">
-                Where stories and style intertwine
-              </p>
+              <img src={PearlHausLogoWhite} alt="Pearl Haus Logo" className="h-8 mb-4" />
             </Link>
             <p className="font-inter leading-relaxed opacity-90 mb-6">
               Creating unforgettable moments through luxury event design and styling. 
@@ -38,7 +34,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-playfair font-semibold text-lg mb-4 text-accent">
+            <h4 className="font-playfair font-semibold text-lg mb-4 text-secondary-foreground">
               Quick Links
             </h4>
             <ul className="space-y-2 font-inter">
@@ -72,17 +68,17 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-playfair font-semibold text-lg mb-4 text-accent">
+            <h4 className="font-playfair font-semibold text-lg mb-4 text-secondary-foreground">
               Contact
             </h4>
             <div className="space-y-3 font-inter">
               <div className="flex items-center space-x-3 opacity-80">
                 <Mail size={16} />
-                <span>hello@pearlhaus.com</span>
+                <span>pearlhaus.events@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 opacity-80">
                 <Phone size={16} />
-                <span>+91 8076123467</span>
+                <span>+91 9989211777</span>
               </div>
               <div className="flex items-center space-x-3 opacity-80">
                 <MapPin size={16} />

@@ -59,6 +59,11 @@ All colors MUST be HSL.
     --transition-elegant: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-smooth: all 0.3s ease-in-out;
 
+    /* Glassmorphism */
+    --glass-background: 45 25% 96% / 0.9; /* card color with transparency */
+    --glass-border: 45 20% 88% / 0.8; /* border color with transparency */
+    --glass-blur: 10px; /* blur amount */
+
     --sidebar-background: 0 0% 98%;
 
     --sidebar-foreground: 240 5.3% 26.1%;

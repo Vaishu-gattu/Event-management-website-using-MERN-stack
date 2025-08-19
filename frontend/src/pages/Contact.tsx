@@ -218,8 +218,8 @@ const Contact = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-playfair font-semibold text-accent mb-6">Get In Touch</h3>
                 <div className="space-y-4 font-inter">
-                  <div className="flex items-center space-x-3"><Mail className="w-5 h-5 text-accent" /><span>hello@pearlhaus.com</span></div>
-                  <div className="flex items-center space-x-3"><Phone className="w-5 h-5 text-accent" /><span>+91 8019124576</span></div>
+                  <div className="flex items-center space-x-3"><Mail className="w-5 h-5 text-accent" /><span>pearlhaus.events@gmail.com</span></div>
+                  <div className="flex items-center space-x-3"><Phone className="w-5 h-5 text-accent" /><span>+91 9989211777</span></div>
                   <div className="flex items-center space-x-3"><MapPin className="w-5 h-5 text-accent" /><span>Hyderabad, India</span></div>
                 </div>
               </CardContent>
