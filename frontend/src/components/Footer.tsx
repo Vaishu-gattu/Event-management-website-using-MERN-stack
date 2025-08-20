@@ -78,7 +78,7 @@ const Footer = () => {
             <div className="space-y-3 font-inter">
               <div className="flex items-center space-x-3 opacity-80">
                 <Mail size={16} />
-                <span>hello@pearlhaus.com</span>
+                <span>pearlhaus.events@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 opacity-80">
                 <Phone size={16} />
