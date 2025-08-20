@@ -15,7 +15,7 @@ const portfolioItems = [
     category: "Wedding",
     image: heroImage,
     description: "A romantic outdoor ceremony featuring lush florals and candlelit reception under the stars.",
-    location: "Napa Valley, CA"
+    location: "Udaipur, Rajasthan"
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const portfolioItems = [
     category: "Corporate",
     image: corporateImage,
     description: "Sophisticated networking event with modern design elements and premium branding.",
-    location: "San Francisco, CA"
+    location: "Mumbai, Maharashtra"
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const portfolioItems = [
     category: "Baby Shower",
     image: babyShowerImage,
     description: "Soft pastels and delicate details created the perfect celebration for expecting parents.",
-    location: "Palo Alto, CA"
+    location: "Bengaluru, Karnataka"
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const portfolioItems = [
     category: "Birthday",
     image: birthdayImage,
     description: "A glamorous 50th birthday party with elegant décor and personalized touches.",
-    location: "Sausalito, CA"
+    location: "Delhi, NCR"
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const portfolioItems = [
     category: "Styling",
     image: customDecorImage,
     description: "Transforming spaces with bespoke décor and thoughtful design elements.",
-    location: "Oakland, CA"
+    location: "Hyderabad, Telangana"
   },
   {
     id: 6,
@@ -55,7 +55,7 @@ const portfolioItems = [
     category: "Anniversary",
     image: heroImage,
     description: "Private dining experience with romantic ambiance and personalized details.",
-    location: "Carmel, CA"
+    location: "Goa"
   }
 ];
 
