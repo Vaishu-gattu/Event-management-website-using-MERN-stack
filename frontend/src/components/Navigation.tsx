@@ -2,11 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-<<<<<<< HEAD
-import logo from "@/assets/logo.png"; // Import your logo
-=======
 import PearlHausLogo from "@/assets/logo.png";
->>>>>>> 301d074fc12a5087a46801ff93b5bcbb6b2b42b3
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,19 +23,13 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-<<<<<<< HEAD
           <Link to="/" className="group flex items-center">
             <img
-              src={logo}
+              src={PearlHausLogo}
               alt="Pearl Haus Logo"
               className="h-10 w-auto"
             />
             {/* Optional: tagline */}
-          
-=======
-          <Link to="/" className="group">
-            <img src={PearlHausLogo} alt="Pearl Haus Logo" className="h-8" />
->>>>>>> 301d074fc12a5087a46801ff93b5bcbb6b2b42b3
           </Link>
 
           {/* Desktop Navigation */}
